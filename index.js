@@ -15,25 +15,31 @@ document.addEventListener("keypress", function(event) {
 
 function playSound(key) {
    switch (key) {
-      case "w":
+      case "a":
         var crash = new Audio("./sounds/crash.mp3");
         crash.play();
         break;
 
-      case "a":
+      case "s":
         var kick = new Audio("./sounds/kick-bass.mp3");
         kick.play();
         break;
 
-      case "s":
+      case "d":
         var snare = new Audio("./sounds/snare.mp3");
         snare.play();
         break;
 
-      case "d":
+      case "f":
         var tom1 = new Audio("./sounds/tom-1.mp3");
         tom1.play();
         break;
+
+      case "h":
+        var tom1 = new Audio("./sounds/tom-1.mp3");
+        tom1.play();
+        break;
+      
       
       case "j":
         var tom2 = new Audio("./sounds/tom-2.mp3");
