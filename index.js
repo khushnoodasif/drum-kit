@@ -8,9 +8,9 @@ for (var i = 0; i < numOfButtons; i++) {
      }
    );
 
-document.addEventListener("keypress", function(event) {
-      playSound(event.key);
-      buttonAnimation(event.key);
+$(document).keypress(function(event) {
+  playSound(event.key);
+  buttonAnimation(event.key);
 });
 
 function playSound(key) {
