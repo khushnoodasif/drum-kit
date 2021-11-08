@@ -11,6 +11,14 @@ h1 {
 
 }
 
+p {
+  font-size: 2rem;
+  text-align: center;
+  color: #64ffda;
+  font-family: "Arvo", cursive;
+  text-shadow: 2px 0 #ffffff;
+}
+
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
@@ -46,6 +54,9 @@ footer {
 
 .set {
   margin: 10% auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between; 
 }
 
 .game-over {
