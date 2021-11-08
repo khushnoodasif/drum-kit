@@ -1,7 +1,7 @@
-var numOfButtons = document.querySelectorAll(".drum").length;
+var numOfButtons = $(".drum").length;
 
 for (var i = 0; i < numOfButtons; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+  $(".drum")[i].addEventListener("click", function() {
       var buttonInnerHTML = this.innerHTML;
       playSound(buttonInnerHTML);
       buttonAnimation(buttonInnerHTML);
@@ -64,5 +64,5 @@ function buttonAnimation(currentKey) {
   activeButton.classList.add("pressed");
   setTimeout(function() {
     activeButton.classList.remove("pressed");
-  }, 1);
+  }, 50);
 }
